@@ -1,0 +1,873 @@
+fileFormatVersion: 2
+guid: 6c8602b5d0530e946a9dc659e0bffe5a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: kust-died1_18
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 4
+        width: 143
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca55f6948a856b742a56d7a4d5252046
+      internalID: -1895163341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kust-died1_30
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 4
+        width: 122
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff17c89af44c0c4c8dd1f56fc5230eb
+      internalID: 1672193074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kust-died1_31
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 4
+        width: 115
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56dc7ae9bc6d0c541a53acba9c768078
+      internalID: -114318418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kust-died1_32
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 4
+        width: 115
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 651fd0b9d4909a34095ed626302e93a2
+      internalID: -955172552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kust-died1_33
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 4
+        width: 115
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 216d81609ea0329419c631d7c1ff9f4d
+      internalID: -1353522782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kust-died1_34
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 5
+        width: 115
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b2cc19ce0d1c6f4aa4264bd16500d38
+      internalID: -1294865214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kust-died1_35
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 4
+        width: 115
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e1e41a2fd1d86045b7072181d059c58
+      internalID: 1158599523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kust-died1_36
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 4
+        width: 115
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb1aed1510f5c3e48a9cea8346d80251
+      internalID: 336946899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kust-died1_37
+      rect:
+        serializedVersion: 2
+        x: 1579
+        y: 0
+        width: 59
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c83ec52d40c41149a36ac861d07d266
+      internalID: -455080751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kust-died1_38
+      rect:
+        serializedVersion: 2
+        x: 1767
+        y: 0
+        width: 59
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 935a4c7259aa74147b7fd21d6917e131
+      internalID: 9555149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kust-died1_54
+      rect:
+        serializedVersion: 2
+        x: 3078
+        y: 0
+        width: 56
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc1f961ecb70f7f4d9a45b1646d30fcd
+      internalID: -289473498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kust-died1_68
+      rect:
+        serializedVersion: 2
+        x: 2467
+        y: 0
+        width: 155
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0230c239a94e6ed488b2fa7e008d61b8
+      internalID: 1486580530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kust-died1_75
+      rect:
+        serializedVersion: 2
+        x: 3273
+        y: 0
+        width: 39
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba1516c2b976ffa4182b60eb9195f80c
+      internalID: 1132823800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kust-died1_76
+      rect:
+        serializedVersion: 2
+        x: 3461
+        y: 0
+        width: 39
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72489b1cf140179499a6e0e7c3fd9c9a
+      internalID: 843199637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kust-died1_77
+      rect:
+        serializedVersion: 2
+        x: 3624
+        y: 0
+        width: 82
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa4dd54399ef7446a427046b8929b19
+      internalID: 1550760689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kust-died1_78
+      rect:
+        serializedVersion: 2
+        x: 3817
+        y: 0
+        width: 82
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb8725c48d4a4c7498822b1731c0ef33
+      internalID: 866188377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kust-died1_80
+      rect:
+        serializedVersion: 2
+        x: 1919
+        y: 0
+        width: 124
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 637e0315830376148936655ac6d76084
+      internalID: 1751834162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kust-died1_82
+      rect:
+        serializedVersion: 2
+        x: 2095
+        y: 0
+        width: 148
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 048beb481b5a84d49b40cadef176d30e
+      internalID: 893918763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kust-died1_92
+      rect:
+        serializedVersion: 2
+        x: 2874
+        y: 0
+        width: 90
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c926d4263451064b99b4ae59fbc205a
+      internalID: 791124563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kust-died1_95
+      rect:
+        serializedVersion: 2
+        x: 4003
+        y: 0
+        width: 84
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1749b7ee4eb720049951e4b38f22252b
+      internalID: -1350396268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kust-died1_96
+      rect:
+        serializedVersion: 2
+        x: 4179
+        y: 0
+        width: 133
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f6571d19d0c72142a974b37abbacd4d
+      internalID: 1952770495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kust-died1_97
+      rect:
+        serializedVersion: 2
+        x: 4367
+        y: 0
+        width: 133
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 116b8c207cda59245a4be0b8e4d5b60f
+      internalID: -1349453115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kust-died1_98
+      rect:
+        serializedVersion: 2
+        x: 4555
+        y: 1
+        width: 133
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2b0fbad0553f4542b10bda31d5a63bf
+      internalID: 571459101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kust-died1_99
+      rect:
+        serializedVersion: 2
+        x: 4743
+        y: 0
+        width: 133
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63ae96034e2e56d4dacdff5f96c5372f
+      internalID: 1303240666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kust-died1_103
+      rect:
+        serializedVersion: 2
+        x: 2279
+        y: 0
+        width: 155
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8004acb3425e0e479ef760e0a1d0613
+      internalID: -738680623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kust-died1_108
+      rect:
+        serializedVersion: 2
+        x: 2659
+        y: 0
+        width: 148
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24bfe3f59a21826438147f13daeaecf4
+      internalID: -548130071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      kust-died1_81: -977217143
+      kust-died1_169: 190071431
+      kust-died1_141: -1479803724
+      kust-died1_147: -1571032151
+      kust-died1_8: 677542766
+      kust-died1_44: 1744539832
+      kust-died1_160: -1357165831
+      kust-died1_111: -1208029648
+      kust-died1_102: 1889232195
+      kust-died1_53: -1932519444
+      kust-died1_179: -1327922357
+      kust-died1_112: -1986315991
+      kust-died1_11: 145357106
+      kust-died1_115: 1197700579
+      kust-died1_156: -920273431
+      kust-died1_68: 1486580530
+      kust-died1_23: -152639003
+      kust-died1_62: -1531894057
+      kust-died1_65: -1639743150
+      kust-died1_59: -1775769583
+      kust-died1_123: 1964123422
+      kust-died1_148: -979067986
+      kust-died1_33: -1353522782
+      kust-died1_56: 1649400423
+      kust-died1_171: 2100608268
+      kust-died1_49: 1601022042
+      kust-died1_52: 507487150
+      kust-died1_191: 1388324709
+      kust-died1_107: -1042691822
+      kust-died1_27: 1837415752
+      kust-died1_108: -548130071
+      kust-died1_183: 275405155
+      kust-died1_99: 1303240666
+      kust-died1_142: -321567
+      kust-died1_74: -328587880
+      kust-died1_76: 843199637
+      kust-died1_86: 1157965291
+      kust-died1_83: 1844503428
+      kust-died1_168: 910052865
+      kust-died1_78: 866188377
+      kust-died1_88: 932700352
+      kust-died1_16: 1965886128
+      kust-died1_36: 336946899
+      kust-died1_180: 1937699319
+      kust-died1_3: -795245104
+      kust-died1_126: -1779009668
+      kust-died1_136: -2005049740
+      kust-died1_190: -1271659363
+      kust-died1_60: -1448488072
+      kust-died1_19: 1702959827
+      kust-died1_13: 1739248491
+      kust-died1_103: -738680623
+      kust-died1_92: 791124563
+      kust-died1_114: -280909885
+      kust-died1_159: 1559820687
+      kust-died1_100: 1290885080
+      kust-died1_118: -619121741
+      kust-died1_42: -299666848
+      kust-died1_129: 2111119765
+      kust-died1_1: -1185169649
+      kust-died1_41: 139132901
+      kust-died1_173: 1615448517
+      kust-died1_192: 512728316
+      kust-died1_104: 1471152430
+      kust-died1_101: -1782964207
+      kust-died1_72: -864877982
+      kust-died1_186: 1003068844
+      kust-died1_26: 938003928
+      kust-died1_29: 397312243
+      kust-died1_105: 225783752
+      kust-died1_181: 32643442
+      kust-died1_110: 366864574
+      kust-died1_117: -1797625947
+      kust-died1_28: 1435898264
+      kust-died1_178: -13375685
+      kust-died1_138: -1753607804
+      kust-died1_91: 662396881
+      kust-died1_172: -506539395
+      kust-died1_122: -961029256
+      kust-died1_64: -1450280694
+      kust-died1_176: -1225070261
+      kust-died1_38: 9555149
+      kust-died1_63: -528295683
+      kust-died1_51: -1231881132
+      kust-died1_146: -1136995021
+      kust-died1_89: 1988060256
+      kust-died1_163: 1723360944
+      kust-died1_137: 2025279467
+      kust-died1_45: 468730781
+      kust-died1_157: -656163024
+      kust-died1_9: -938678569
+      kust-died1_18: -1895163341
+      kust-died1_69: -1080804068
+      kust-died1_128: 193718676
+      kust-died1_47: -1223486693
+      kust-died1_135: -1629451302
+      kust-died1_188: 2079275312
+      kust-died1_93: -1754977359
+      kust-died1_90: -1357870445
+      kust-died1_35: 1158599523
+      kust-died1_39: 1617764408
+      kust-died1_116: 1732770715
+      kust-died1_31: -114318418
+      kust-died1_34: -1294865214
+      kust-died1_71: -1620633117
+      kust-died1_164: -2006881925
+      kust-died1_55: 1517932217
+      kust-died1_24: -279680919
+      kust-died1_150: 1987617827
+      kust-died1_127: -544205511
+      kust-died1_154: 1658677418
+      kust-died1_2: -1019533980
+      kust-died1_12: -1485595080
+      kust-died1_32: -955172552
+      kust-died1_165: -699511534
+      kust-died1_153: -1348890393
+      kust-died1_43: 1634867729
+      kust-died1_149: 1296909756
+      kust-died1_48: -1491666636
+      kust-died1_98: 571459101
+      kust-died1_96: 1952770495
+      kust-died1_130: -1801743646
+      kust-died1_144: 369256241
+      kust-died1_125: -1776898565
+      kust-died1_40: -1653756778
+      kust-died1_5: 2135948504
+      kust-died1_133: -2049188317
+      kust-died1_87: -1740651050
+      kust-died1_79: 1635580385
+      kust-died1_70: 2008448593
+      kust-died1_21: -1069847169
+      kust-died1_140: 67192120
+      kust-died1_14: -698350982
+      kust-died1_174: -1820712859
+      kust-died1_170: -667210996
+      kust-died1_158: -681661948
+      kust-died1_185: 1930116891
+      kust-died1_97: -1349453115
+      kust-died1_15: 1614803863
+      kust-died1_119: -1465738218
+      kust-died1_37: -455080751
+      kust-died1_187: -151667803
+      kust-died1_131: -676748735
+      kust-died1_177: -777029973
+      kust-died1_152: 465611486
+      kust-died1_189: 1355565171
+      kust-died1_50: -807414252
+      kust-died1_4: -651324145
+      kust-died1_22: -214431546
+      kust-died1_57: 1218709951
+      kust-died1_145: 437230221
+      kust-died1_20: -1715815027
+      kust-died1_120: 235519309
+      kust-died1_6: 761260558
+      kust-died1_184: 526810959
+      kust-died1_10: 418780619
+      kust-died1_73: -1509341757
+      kust-died1_155: -614983485
+      kust-died1_80: 1751834162
+      kust-died1_95: -1350396268
+      kust-died1_167: 641695964
+      kust-died1_0: -461055997
+      kust-died1_121: 1484816448
+      kust-died1_106: -126590740
+      kust-died1_182: 249575801
+      kust-died1_175: 985951310
+      kust-died1_132: -2033738207
+      kust-died1_61: 903290579
+      kust-died1_58: 2116564169
+      kust-died1_25: -1902094297
+      kust-died1_30: 1672193074
+      kust-died1_161: -627163870
+      kust-died1_77: 1550760689
+      kust-died1_139: -147501340
+      kust-died1_85: 607903936
+      kust-died1_46: -1211575897
+      kust-died1_84: -1733671317
+      kust-died1_143: -761018705
+      kust-died1_162: 893157485
+      kust-died1_166: 1205003865
+      kust-died1_82: 893918763
+      kust-died1_66: 867554666
+      kust-died1_75: 1132823800
+      kust-died1_54: -289473498
+      kust-died1_134: -1744876245
+      kust-died1_109: -7052446
+      kust-died1_113: 242050024
+      kust-died1_67: -1901917281
+      kust-died1_7: -1208178780
+      kust-died1_151: -1167939245
+      kust-died1_124: -488563883
+      kust-died1_17: -1692258763
+      kust-died1_94: -138854544
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
