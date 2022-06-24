@@ -20,12 +20,11 @@ public class CameraController : MonoBehaviour
 
     private void Start()
     {
-        if (Camera.main != null)
-            Camera.main.orthographicSize = fieldOfView;
     }
 
     void Update()
-    {
+    {   
+        Camera.main.orthographicSize = fieldOfView;
         _beforeShakePos = transform.position;
         _playerpos = player.transform.position;
 

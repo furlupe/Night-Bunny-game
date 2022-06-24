@@ -5,11 +5,13 @@ public class Bushes : Enemy
     private void Start()
     {
         FieldOfView = new Vector2(5, 0);
+        _fovAngle = 180;
 
-        const int h = 100;
-        const int dmg = 35;
+        Health = 100;
+        Damage = 35;
+        _fovAngle = 180;
 
-        Init(h, dmg);
+        Init();
         
         GetComponent<EnemyAI>().Init(this);
     }

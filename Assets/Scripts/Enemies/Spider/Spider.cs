@@ -15,10 +15,11 @@ public class Spider : Enemy
     void Start()
     {
         
-        const int h = 100;
-        const int dmg = 0;
+        Health = 100;
+        Damage = 0;
+        _fovAngle = 0;
         
-        Init(h, dmg);
+        Init();
         FieldOfView = new Vector2(5, 0);
     }
 
@@ -37,10 +38,12 @@ public class Spider : Enemy
         _timerCooldown = Time.time + Cooldown;
     }
 
-    private void Shoot()
+    private void Shoot(AudioClip shotSound)
     {
         var prj = Instantiate(projectile);
         prj.transform.position = transform.position;
+        
+        Audio.PlayOneShot(shotSound);
 
         prj.GetComponent<SpiderProjectile>().Launch(
             Player.transform.position

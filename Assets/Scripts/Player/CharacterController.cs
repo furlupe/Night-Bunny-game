@@ -1,4 +1,8 @@
+using System.Numerics;
 using UnityEngine;
+using UnityEngine.Serialization;
+using Vector2 = UnityEngine.Vector2;
+using Vector3 = UnityEngine.Vector3;
 
 public class CharacterController : MonoBehaviour
 {
@@ -24,6 +28,11 @@ public class CharacterController : MonoBehaviour
     private static readonly int Grounded = Animator.StringToHash("Grounded");
     private static readonly int YSpeed = Animator.StringToHash("YSpeed");
 
+    private Vector3 _climbPos;
+    private float _gravScale;
+
+    private Rigidbody2D _rb;
+
     private void Flip()
     {
         _facingRight = !_facingRight;
@@ -32,10 +41,19 @@ public class CharacterController : MonoBehaviour
         transform.localScale = theScale;
     }
 
-    public void ClimbOnEdge(Vector3 pos)
+    public void ClimbOnEdgeStart(Vector3 pos)
     {
-        if (!_grounded)
-            transform.position = pos;
+        if (_grounded) return;
+        
+        _climbPos = pos;
+        _rb.gravityScale = 0;
+        GetComponent<Player>().animator.SetTrigger("Climb");
+    }
+
+    public void ClimbOnEdge()
+    {
+        transform.position = _climbPos;
+        _rb.gravityScale = _gravScale;
     }
 
     private void AddForce(Vector2 force)
@@ -52,6 +70,8 @@ public class CharacterController : MonoBehaviour
     {
         _audio = GetComponent<Player>().audio;
         _animator = GetComponent<Player>().animator;
+        _rb = GetComponent<Rigidbody2D>();
+        _gravScale = _rb.gravityScale;
     }
 
     private void FixedUpdate()

@@ -231,12 +231,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97f66db072cce054b885c0f53cee9e05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Animator: {fileID: 0}
-  rb: {fileID: 0}
-  Audio: {fileID: 0}
+  Animator: {fileID: 483386738006491548}
+  rb: {fileID: 8971391170943532370}
+  Audio: {fileID: 8840793302385077495}
   Player: {fileID: 0}
-  hitSound: {fileID: 0}
-  deathSound: {fileID: 0}
+  hitSound: {fileID: 8300000, guid: a2298fea59d0e4642bd871b2bc4d1d53, type: 3}
+  deathSound: {fileID: 8300000, guid: b8e71416f04e7674b9f0b22b56cb5f47, type: 3}
   playerMask:
     serializedVersion: 2
     m_Bits: 512
@@ -244,6 +244,7 @@ MonoBehaviour:
   dir: 0
   facingRight: 0
   knockBackDuration: 1
+  _fovAngle: 0
 --- !u!1 &2222146160489165087
 GameObject:
   m_ObjectHideFlags: 0
@@ -302,7 +303,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.306
   m_Pitch: 1
   Loop: 0
   Mute: 0

@@ -25,12 +25,12 @@ public class GroundClimbTrigger : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (!other.CompareTag("Player")) return;
-        
+
         _parentpos = _parent.position;
         float x = _parentpos.x + (left ? shift : _width),
             y = other.transform.position.y + yshift * _height,
             z = _parentpos.z;
 
-        other.GetComponent<CharacterController>().ClimbOnEdge(new Vector3(x, y, z));
+        other.GetComponent<CharacterController>().ClimbOnEdgeStart(new Vector3(x, y, z));
     }
 }

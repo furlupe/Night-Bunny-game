@@ -23,23 +23,21 @@ public class Enemy : MonoBehaviour
     [SerializeField] private LayerMask playerMask;
 
     public Vector2 outsideForces = Vector2.zero;
-    public int dir;
+    public int dir = -1;
     public bool facingRight;
     private Vector2 knockBackForce = new(3, 0);
     public float knockBackDuration = 1f;
 
+    public int _fovAngle;
 
-    protected void Init(int h, int dmg)
+    protected void Init()
     {
         Animator = GetComponent<Animator>();
         Audio = transform.GetChild(0).GetComponent<AudioSource>();
         rb = GetComponent<Rigidbody2D>();
         Player = GameObject.FindGameObjectWithTag("Player");
-
-        Health = h;
-        Damage = dmg;
+        
         dir = -1;
-        facingRight = false;
     }
 
     private void Update()
@@ -96,7 +94,7 @@ public class Enemy : MonoBehaviour
 
     public bool CheckIfPlayerWithinFov(Vector2 fov)
     {
-        for (var i = 0; i < 361; i += 15)
+        for (var i = _fovAngle; i < 361; i += 15)
         {
             var radian = i * Mathf.Deg2Rad;
 
@@ -113,5 +111,10 @@ public class Enemy : MonoBehaviour
         }
 
         return false;
+    }
+
+    public void playAudioClip(AudioClip a)
+    {
+        Audio.PlayOneShot(a);
     }
 }

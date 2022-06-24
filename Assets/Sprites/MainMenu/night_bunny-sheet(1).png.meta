@@ -1,0 +1,258 @@
+fileFormatVersion: 2
+guid: c1535ed6863b98e4485cfc01cb3cb758
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: night_bunny-sheet(1)_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 21
+        width: 603
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19dc39a755834ad48b8d86bb33c8c61c
+      internalID: -1637160157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: night_bunny-sheet(1)_10
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 0
+        width: 603
+        height: 163
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a965bc2344c173146a84828956376919
+      internalID: -952027715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: night_bunny-sheet(1)_20
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 9
+        width: 603
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f8a7b9557a45fc47ab4e3f1e7a3c290
+      internalID: 2082926070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: night_bunny-sheet(1)_30
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 15
+        width: 603
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88e3f6fb4cb702e438f928b806da7b53
+      internalID: -2097405613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      night_bunny-sheet(1)_29: -2080568075
+      night_bunny-sheet(1)_5: -1414540081
+      night_bunny-sheet(1)_30: -2097405613
+      night_bunny-sheet(1)_28: -842846337
+      night_bunny-sheet(1)_1: 1144522887
+      night_bunny-sheet(1)_23: -1926861013
+      night_bunny-sheet(1)_36: -282007132
+      night_bunny-sheet(1)_14: 1238632064
+      night_bunny-sheet(1)_7: -574757371
+      night_bunny-sheet(1)_21: -2136068577
+      night_bunny-sheet(1)_39: -1573061263
+      night_bunny-sheet(1)_32: 1181870629
+      night_bunny-sheet(1)_35: 602524786
+      night_bunny-sheet(1)_31: -1137490803
+      night_bunny-sheet(1)_11: 1557977099
+      night_bunny-sheet(1)_12: -756570537
+      night_bunny-sheet(1)_22: 565612926
+      night_bunny-sheet(1)_8: -1427588339
+      night_bunny-sheet(1)_16: 1699427620
+      night_bunny-sheet(1)_24: -1513187470
+      night_bunny-sheet(1)_25: 946926835
+      night_bunny-sheet(1)_18: -685732709
+      night_bunny-sheet(1)_20: 2082926070
+      night_bunny-sheet(1)_15: -818201525
+      night_bunny-sheet(1)_34: -924523492
+      night_bunny-sheet(1)_13: -811929398
+      night_bunny-sheet(1)_37: -891779543
+      night_bunny-sheet(1)_3: -1009480134
+      night_bunny-sheet(1)_4: -110264563
+      night_bunny-sheet(1)_17: 549156047
+      night_bunny-sheet(1)_19: -1357466399
+      night_bunny-sheet(1)_26: 591800451
+      night_bunny-sheet(1)_9: -1881942449
+      night_bunny-sheet(1)_10: -952027715
+      night_bunny-sheet(1)_27: 1892027896
+      night_bunny-sheet(1)_2: 1649617801
+      night_bunny-sheet(1)_0: -1637160157
+      night_bunny-sheet(1)_6: -1341207531
+      night_bunny-sheet(1)_33: 1977836044
+      night_bunny-sheet(1)_38: 15830643
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
