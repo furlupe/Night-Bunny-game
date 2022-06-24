@@ -103,6 +103,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 2917045373151838133}
+  damage: 2
   activateSound: {fileID: 8300000, guid: 817579c003beb4d409275d63672c760a, type: 3}
   defusedSound: {fileID: 8300000, guid: 0eb1cbf7fe36f69449954944258a3732, type: 3}
 --- !u!61 &2031946902781439805
@@ -262,7 +263,6 @@ MonoBehaviour:
   camera: {fileID: 0}
   fillAmount: 0
   timeThreshold: 0
-  animator: {fileID: 2917045373151838133}
   eventComplete: 0
 --- !u!1 &932731447760109846
 GameObject:

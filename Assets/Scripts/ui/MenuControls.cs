@@ -6,17 +6,24 @@ public class MenuControls : MonoBehaviour
     private GameObject[] _pauseObjects = {};
     private AudioSource _backMusic;
     private CameraController _cam;
+    
+    private GameObject[] _hpUI = { };
+
+    private float _volume;
 
     private void Start()
     {
         Time.timeScale = 0;
         _pauseObjects = GameObject.FindGameObjectsWithTag("ShowOnPause");
+        _hpUI = GameObject.FindGameObjectsWithTag("Health");
         
         _backMusic = GameObject.FindGameObjectWithTag("BackgroundMusic")
             .GetComponent<AudioSource>();
         
         _cam = GameObject.FindGameObjectWithTag("MainCamera")
             .GetComponent<CameraController>();
+
+        _volume = _backMusic.volume;
         
         ShowPaused();
     }
@@ -45,7 +52,13 @@ public class MenuControls : MonoBehaviour
         {
             g.SetActive(false);
         }
-        _backMusic.GetComponent<AudioSource>().Play();
+
+        foreach (var h in _hpUI)
+        {
+            h.SetActive(true);
+        }
+        
+        _backMusic.volume = _volume;
         _cam.enabled = true;
     }
 
@@ -55,7 +68,13 @@ public class MenuControls : MonoBehaviour
         {
             g.SetActive(true);
         }
-        _backMusic.Pause();
+        
+        foreach (var h in _hpUI)
+        {
+            h.SetActive(false);
+        }
+        
+        _backMusic.volume = 0.005f;
         _cam.enabled = false;
     }
 

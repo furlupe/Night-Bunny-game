@@ -5,7 +5,7 @@ using Vector3 = UnityEngine.Vector3;
 public class SpiderProjectile : MonoBehaviour
 {
     public float projectileSpeed = 0.5f;
-    public int projectileDamage = 20;
+    public int projectileDamage = 1;
 
     public float flyingTime = 7f;
     private float _timer;

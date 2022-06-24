@@ -120,12 +120,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3823700ebde4f9249953c208a5b9d05e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Health: 100
+  Damage: 0
   Animator: {fileID: 6967789937790357992}
   rb: {fileID: 3888301666126240968}
   Audio: {fileID: 7189246858966127384}
   Player: {fileID: 0}
-  hitSound: {fileID: 8300000, guid: c0312fad673d592458c1b55c22485b36, type: 3}
-  deathSound: {fileID: 8300000, guid: e7e5da5912e1da440a4e1971b0a4b676, type: 3}
   playerMask:
     serializedVersion: 2
     m_Bits: 512
@@ -277,7 +277,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 0.317
+  m_Volume: 0.167
   m_Pitch: 1
   Loop: 0
   Mute: 0

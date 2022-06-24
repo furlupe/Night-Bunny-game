@@ -9,7 +9,7 @@ namespace Enemies.Bushes
             FieldOfView = new Vector2(5, 0);
 
             //Health = 100;
-            //Damage = 35;
+            Damage = 1;
             _fovAngle = 180;
 
             Init();

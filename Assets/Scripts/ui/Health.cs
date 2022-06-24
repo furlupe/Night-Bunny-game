@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Death : MonoBehaviour
+public class Health : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -15,11 +15,9 @@ public class Death : MonoBehaviour
     {
         
     }
-    private void OnTriggerEnter2D(Collider2D col)
+
+    public void Lose()
     {
-        if (col.CompareTag("Player"))
-        {
-            Application.LoadLevel(Application.loadedLevel);
-        }
+        GetComponent<Animator>().SetTrigger("LoseHealth");
     }
 }

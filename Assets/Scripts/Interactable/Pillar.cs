@@ -6,6 +6,7 @@ namespace Interactable
     public class Pillar : MonoBehaviour
     {
         private Animator _animator;
+        public Animator particles;
         private AudioSource _audio;
         private bool _near;
 
@@ -54,6 +55,7 @@ namespace Interactable
         private void Activate()
         {
             _animator.SetTrigger("Activate");
+            particles.SetTrigger("Activate");
             _audio.Play();
             //_animator.SetBool("Activated", true);
             door.Open();

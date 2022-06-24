@@ -9,6 +9,7 @@ TagManager:
   - Edge
   - ShowOnPause
   - BackgroundMusic
+  - Health
   layers:
   - Default
   - TransparentFX

@@ -28,7 +28,7 @@ public class GroundClimbTrigger : MonoBehaviour
 
         _parentpos = _parent.position;
         float x = _parentpos.x + (left ? shift : _width),
-            y = other.transform.position.y + yshift * _height,
+            y = transform.position.y + yshift * _height,
             z = _parentpos.z;
 
         other.GetComponent<CharacterController>().ClimbOnEdgeStart(new Vector3(x, y, z));

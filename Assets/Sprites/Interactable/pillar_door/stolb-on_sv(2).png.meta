@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: dc407e7896b29944584ece248d5d76dd
+guid: 83aef4968f1cfa543845e6e1cab9d129
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -116,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: stolb-on_0
+      name: stolb-on_sv(2)_0
       rect:
         serializedVersion: 2
-        x: 22
-        y: 29
-        width: 105
-        height: 153
+        x: 2
+        y: 4
+        width: 191
+        height: 191
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,20 +130,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f46e1e79c9d1ff64099347edc27ccd81
-      internalID: -1997503477
+      spriteID: 9bccd1c9187383546923566380438276
+      internalID: -1601457262
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: stolb-on_1
+      name: stolb-on_sv(2)_1
       rect:
         serializedVersion: 2
-        x: 222
-        y: 29
-        width: 105
-        height: 153
+        x: 202
+        y: 4
+        width: 191
+        height: 191
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,20 +151,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c1bd62ab5204dc64594487140b232a43
-      internalID: 49967504
+      spriteID: 2854cb651df5256429b088adbb530335
+      internalID: 1647163650
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: stolb-on_2
+      name: stolb-on_sv(2)_2
       rect:
         serializedVersion: 2
-        x: 422
-        y: 29
-        width: 105
-        height: 153
+        x: 402
+        y: 4
+        width: 191
+        height: 191
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,20 +172,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 994bd57e8be39324eb2f2150588597ff
-      internalID: -1911032898
+      spriteID: be50b18e8db11ef48994125108b8228f
+      internalID: -1224385737
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: stolb-on_3
+      name: stolb-on_sv(2)_3
       rect:
         serializedVersion: 2
-        x: 622
-        y: 29
-        width: 105
-        height: 153
+        x: 602
+        y: 4
+        width: 191
+        height: 191
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,20 +193,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bea857d4e7ed80c43a941ef3f9679015
-      internalID: -1269823879
+      spriteID: 5deed28f2f6cabe4498c552f5b18e488
+      internalID: 1489189634
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: stolb-on_4
+      name: stolb-on_sv(2)_4
       rect:
         serializedVersion: 2
-        x: 822
-        y: 29
-        width: 117
-        height: 153
+        x: 802
+        y: 4
+        width: 191
+        height: 191
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -214,20 +214,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e17aeba8cdc9135479d7e42389db048e
-      internalID: 1622632793
+      spriteID: 09d3e12c94f3ff54792434336faf7697
+      internalID: 2085346524
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: stolb-on_5
+      name: stolb-on_sv(2)_5
       rect:
         serializedVersion: 2
-        x: 1022
-        y: 29
-        width: 117
-        height: 153
+        x: 1002
+        y: 4
+        width: 191
+        height: 191
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -235,20 +235,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 714dca4e01bfa8847b7c69b4a7e62e37
-      internalID: 1848991698
+      spriteID: fb960d305ec4b5a4f96ed2d316aa1039
+      internalID: -1186721620
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: stolb-on_6
+      name: stolb-on_sv(2)_6
       rect:
         serializedVersion: 2
-        x: 1222
-        y: 29
-        width: 117
-        height: 153
+        x: 1202
+        y: 4
+        width: 191
+        height: 191
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -256,20 +256,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 81dddd26476075d4c908f5c8965e8a19
-      internalID: 747571497
+      spriteID: dc33009de92262b43875b3ffc3bc6afd
+      internalID: 1479815764
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: stolb-on_7
+      name: stolb-on_sv(2)_7
       rect:
         serializedVersion: 2
-        x: 1422
-        y: 29
-        width: 129
-        height: 153
+        x: 1402
+        y: 4
+        width: 191
+        height: 191
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -277,20 +277,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 121c3176c4187c9459aad8619806c1e8
-      internalID: 1949799697
+      spriteID: 9b2bcf65db5661d419cf13fc16674d39
+      internalID: -1367808972
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: stolb-on_8
+      name: stolb-on_sv(2)_8
       rect:
         serializedVersion: 2
-        x: 1621
-        y: 26
-        width: 129
-        height: 153
+        x: 1602
+        y: 4
+        width: 191
+        height: 191
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -298,20 +298,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cae1117446aa2f74a945b726bbdf21a1
-      internalID: -645700031
+      spriteID: 498a1612f19e7cc458912c22712d6cc1
+      internalID: 2004138245
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: stolb-on_9
+      name: stolb-on_sv(2)_9
       rect:
         serializedVersion: 2
-        x: 1822
-        y: 29
-        width: 117
-        height: 153
+        x: 1802
+        y: 4
+        width: 191
+        height: 191
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -319,20 +319,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb2b2a45f6e6e1944b5edfbbfcf06f47
-      internalID: -687067813
+      spriteID: 8dc258f8b81c5af4da89f4db27452c7d
+      internalID: 285711552
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: stolb-on_10
+      name: stolb-on_sv(2)_10
       rect:
         serializedVersion: 2
-        x: 2025
-        y: 29
-        width: 105
-        height: 153
+        x: 2002
+        y: 4
+        width: 191
+        height: 191
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -340,8 +340,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8500cba27ec5a44bac2d80072ea9298
-      internalID: 722448377
+      spriteID: f346bb787ccc8f248ac4fc632950894c
+      internalID: -1145095090
       vertices: []
       indices: 
       edges: []
@@ -357,17 +357,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      stolb-on_7: 1949799697
-      stolb-on_3: -1269823879
-      stolb-on_4: 1622632793
-      stolb-on_10: 722448377
-      stolb-on_5: 1848991698
-      stolb-on_1: 49967504
-      stolb-on_0: -1997503477
-      stolb-on_8: -645700031
-      stolb-on_2: -1911032898
-      stolb-on_6: 747571497
-      stolb-on_9: -687067813
+      stolb-on_sv(2)_8: 2004138245
+      stolb-on_sv(2)_2: -1224385737
+      stolb-on_sv(2)_10: -1145095090
+      stolb-on_sv(2)_4: 2085346524
+      stolb-on_sv(2)_5: -1186721620
+      stolb-on_sv(2)_0: -1601457262
+      stolb-on_sv(2)_9: 285711552
+      stolb-on_sv(2)_3: 1489189634
+      stolb-on_sv(2)_6: 1479815764
+      stolb-on_sv(2)_1: 1647163650
+      stolb-on_sv(2)_7: -1367808972
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

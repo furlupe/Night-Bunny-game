@@ -6,7 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
-    public int health;
+    public int totalHealth = 5;
+    private int health;
     public Animator animator = new();
     public AudioSource audio;
 
@@ -22,6 +23,9 @@ public class Player : MonoBehaviour
     public float invincibilityDuration = 2f;
     public float invincibilityBlinkDuration = 0.1f;
 
+    private GameObject[] _hpUI = { };
+    private int _hpIndex = 0;
+
     void Spawn(GameObject objectPrefab)
     {
         var obj = Instantiate(objectPrefab);
@@ -34,6 +38,12 @@ public class Player : MonoBehaviour
         GetComponent<CharacterController>().Knockback(direction);
 
         health -= damage;
+        for (var d = _hpIndex; d < Math.Min(_hpIndex + damage, totalHealth); d++)
+        {
+            _hpUI[d].GetComponent<Health>().Lose();
+        }
+
+        _hpIndex += damage;
 
         if (health <= 0)
         {
@@ -88,15 +98,18 @@ public class Player : MonoBehaviour
     public void Reload(int reloadAfterSeconds)
     {
         Invoke("WaitForSeconds", reloadAfterSeconds);
-        SceneManager.LoadScene("Scenes/lvl_1_final");
+        SceneManager.LoadScene(Application.loadedLevel);
     }
 
     void Start()
     {
-        health = 100;
+        totalHealth = 5;
+        health = totalHealth;
         animator = GetComponent<Animator>();
         audio = GetComponent<AudioSource>();
         _spriteRenderer = GetComponent<SpriteRenderer>();
+        _hpUI = GameObject.FindGameObjectsWithTag("Health");
+        Disable();
     }
 
     void Update()
