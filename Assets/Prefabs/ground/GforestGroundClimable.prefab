@@ -246,7 +246,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   left: 0
   shift: 0.5
-  yshift: 2
+  yshift: 1
 --- !u!1 &4156639781403754148
 GameObject:
   m_ObjectHideFlags: 0
@@ -320,7 +320,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   left: 1
   shift: 0.5
-  yshift: 2
+  yshift: 1
 --- !u!1 &4622046989133865506
 GameObject:
   m_ObjectHideFlags: 0

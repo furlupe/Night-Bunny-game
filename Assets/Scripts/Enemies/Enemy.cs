@@ -4,17 +4,14 @@ using UnityEngine.Serialization;
 
 public class Enemy : MonoBehaviour
 {
-    public int Health { get; set; }
-    public int Damage { get; set; }
+    public int Health = 100;
+    public int Damage;
     public Animator Animator;
     public Rigidbody2D rb;
 
     public AudioSource Audio;
     public GameObject Player;
     public Vector2 FieldOfView { get; set; }
-
-    public AudioClip hitSound;
-    public AudioClip deathSound;
 
     public readonly int _hurt = Animator.StringToHash("Hurt");
     public readonly int _isDead = Animator.StringToHash("isDead");
@@ -54,7 +51,6 @@ public class Enemy : MonoBehaviour
     {
         Health -= incomeDamage;
         Animator.SetTrigger(_hurt);
-        Audio.PlayOneShot(hitSound);
 
         if (Health <= 0)
         {

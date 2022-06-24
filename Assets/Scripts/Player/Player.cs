@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -36,7 +37,8 @@ public class Player : MonoBehaviour
 
         if (health <= 0)
         {
-            Application.LoadLevel(Application.loadedLevel);
+            Die();
+            return;
         }
 
         StartCoroutine(
@@ -71,10 +73,22 @@ public class Player : MonoBehaviour
         animator.SetFloat(Speed, 0);
     }
 
+    private void Die()
+    {
+        animator.SetBool("isDead", true);
+        Disable();
+    }
+
     public void Enable()
     {
         GetComponent<CharacterController>().enabled = true;
         GetComponent<PlayerCombat>().enabled = true;
+    }
+
+    public void Reload(int reloadAfterSeconds)
+    {
+        Invoke("WaitForSeconds", reloadAfterSeconds);
+        SceneManager.LoadScene("Scenes/lvl_1_final");
     }
 
     void Start()
@@ -90,11 +104,6 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.X))
         {
             Spawn(spawnable);
-        }
-
-        if (Input.GetKey(KeyCode.Escape))
-        {
-            Application.Quit();
         }
 
         if (Input.GetKey(KeyCode.R))

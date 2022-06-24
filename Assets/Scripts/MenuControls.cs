@@ -4,51 +4,59 @@ using UnityEngine.SceneManagement;
 public class MenuControls : MonoBehaviour
 {
     private GameObject[] _pauseObjects = {};
-    private GameObject _backMusic;
-    void Start()
+    private AudioSource _backMusic;
+    private CameraController _cam;
+
+    private void Start()
     {
         Time.timeScale = 0;
         _pauseObjects = GameObject.FindGameObjectsWithTag("ShowOnPause");
-        _backMusic = GameObject.FindGameObjectWithTag("BackgroundMusic");
-        showPaused();
+        
+        _backMusic = GameObject.FindGameObjectWithTag("BackgroundMusic")
+            .GetComponent<AudioSource>();
+        
+        _cam = GameObject.FindGameObjectWithTag("MainCamera")
+            .GetComponent<CameraController>();
+        
+        ShowPaused();
     }
 
-    void Update()
+    private void Update()
     {
         if (! Input.GetKeyDown(KeyCode.Escape)) return;
-        pauseControl();
+        PauseControl();
     }
-
-
-    public void pauseControl()
+    public void PauseControl()
     {
         if (Time.timeScale == 1)
         {
             Time.timeScale = 0;
-            showPaused();
+            ShowPaused();
             return;
         }
 
         Time.timeScale = 1;
-        hidePaused();
+        HidePaused();
     }
 
-    public void hidePaused()
+    private void HidePaused()
     {
         foreach (var g in _pauseObjects)
         {
             g.SetActive(false);
         }
         _backMusic.GetComponent<AudioSource>().Play();
+        _cam.enabled = true;
     }
-    
-    public void showPaused()
+
+    private void ShowPaused()
     {
         foreach (var g in _pauseObjects)
         {
             g.SetActive(true);
         }
-        _backMusic.GetComponent<AudioSource>().Pause();
+        _backMusic.Pause();
+        _cam.enabled = false;
     }
 
     public void Exit()

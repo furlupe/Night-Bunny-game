@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Enemies.Bushes;
 using UnityEngine;
 
 public class PlayerCombat : MonoBehaviour
