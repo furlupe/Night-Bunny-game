@@ -188,7 +188,7 @@ MonoBehaviour:
   move: 0
   maxSpeed: 5
   jumpForce: 400
-  knockBackForce: {x: 35, y: 0}
+  knockBackForce: {x: 3, y: 0}
   knockBackDuration: 1
   walking: {fileID: 8300000, guid: 712124193b918924097aa0d48c85c066, type: 3}
   groundCheck: {fileID: 6013021992287455915}
@@ -208,12 +208,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d8dc7c22a9b9064d9f5f3c7f8c764af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
+  totalHealth: 5
   animator: {fileID: 8634874483885631732}
   audio: {fileID: 641513771455415576}
   spawnable: {fileID: 1364303257395922115, guid: 5924f72715a4ad94489478877f259461, type: 3}
   invincibilityDuration: 2
   invincibilityBlinkDuration: 0.1
+  _hpUI:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!50 &8634874483885631733
 Rigidbody2D:
   serializedVersion: 4

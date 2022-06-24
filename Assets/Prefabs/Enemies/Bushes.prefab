@@ -232,7 +232,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Health: 100
-  Damage: 35
+  Damage: 1
   Animator: {fileID: 483386738006491548}
   rb: {fileID: 8971391170943532370}
   Audio: {fileID: 8840793302385077495}

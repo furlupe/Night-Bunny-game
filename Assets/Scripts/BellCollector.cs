@@ -101,6 +101,7 @@ public class BellCollector : MonoBehaviour
                 var bell = Instantiate(bellPrefab);
 
                 var pos = GetRandomSpawnPointPosition();
+                Debug.Log($"spawned bell at pos {pos}");
 
                 bell.transform.position = pos;
             }

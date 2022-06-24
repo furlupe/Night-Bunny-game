@@ -121,7 +121,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Health: 100
-  Damage: 0
+  Damage: 1
   Animator: {fileID: 6967789937790357992}
   rb: {fileID: 3888301666126240968}
   Audio: {fileID: 7189246858966127384}

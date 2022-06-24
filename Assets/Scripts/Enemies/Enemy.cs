@@ -5,7 +5,7 @@ using UnityEngine.Serialization;
 public class Enemy : MonoBehaviour
 {
     public int Health = 100;
-    public int Damage;
+    public int Damage = 1;
     public Animator Animator;
     public Rigidbody2D rb;
 

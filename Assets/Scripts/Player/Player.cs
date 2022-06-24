@@ -23,7 +23,7 @@ public class Player : MonoBehaviour
     public float invincibilityDuration = 2f;
     public float invincibilityBlinkDuration = 0.1f;
 
-    private GameObject[] _hpUI = { };
+    public GameObject[] _hpUI = { };
     private int _hpIndex = 0;
 
     void Spawn(GameObject objectPrefab)
@@ -40,6 +40,7 @@ public class Player : MonoBehaviour
         health -= damage;
         for (var d = _hpIndex; d < Math.Min(_hpIndex + damage, totalHealth); d++)
         {
+            Debug.Log($"IndexHealth: {d}, {_hpUI}");
             _hpUI[d].GetComponent<Health>().Lose();
         }
 
@@ -108,7 +109,8 @@ public class Player : MonoBehaviour
         animator = GetComponent<Animator>();
         audio = GetComponent<AudioSource>();
         _spriteRenderer = GetComponent<SpriteRenderer>();
-        _hpUI = GameObject.FindGameObjectsWithTag("Health");
+        //_hpUI = GameObject.FindGameObjectsWithTag("Health");
+        
         Disable();
     }
 
