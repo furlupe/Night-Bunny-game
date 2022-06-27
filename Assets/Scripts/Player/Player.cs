@@ -84,7 +84,7 @@ public class Player : MonoBehaviour
         animator.SetFloat(Speed, 0);
     }
 
-    private void Die()
+    public void Die()
     {
         animator.SetBool("isDead", true);
         Disable();

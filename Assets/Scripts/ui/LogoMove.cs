@@ -13,6 +13,11 @@ public class LogoMove : MonoBehaviour
     private void Start()
     {
         pos = GetComponent<RectTransform>().anchoredPosition;
+        transform.localPosition = new Vector3(
+            transform.localPosition.x,
+            transform.localPosition.y,
+            0
+        );
     }
 
     void Update()

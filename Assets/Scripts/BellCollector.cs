@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
+using ui;
 using UnityEngine;
 using Random = System.Random;
 
@@ -28,11 +29,14 @@ public class BellCollector : MonoBehaviour
     private readonly HashSet<int> _beenSpawned = new();
 
     private Random _rnd;
+    public TaskUi _playerTask;
+
+    public MenuControls HUD;
 
     private void Start()
     {
         _rnd = new Random();
-        
+
         foreach (Transform child in spawnPointsGameObject.transform)
         {
             _spawnPoints.Add(child.gameObject);
@@ -65,6 +69,21 @@ public class BellCollector : MonoBehaviour
                 "Да, ты прав, я же все же обещал. Тогда...давай ты достанешь мне еще несколько колокольчиков, и тогда я тебе точно что-то дам!"
             });
 
+        _dialogues.Add(4,
+            new[]
+            {
+                "Да-да, я знаю, что я обещал дать тебе награду и все такое, но...",
+                "...мне все еще нужна твоя помощь по поиску этих чертовых колокольчиков!",
+                "Зачем? Не могу пока сказать",
+                "...",
+                "Что значит 'НЕ ХОЧУ' ?!",
+                "Что. Это. Значит. ?!",
+                "То есть ты мало того, что ты делаешь эту работу непростительно долго, так теперь и вовсе не хочешь ее делать?!",
+                "И ТЫ ДУМАЕШЬ Я ОСТАВЛЮ ЭТО ПРОСТО ТАК?!!!",
+                "НУ УЖ НЕТ. ДАЖЕ НЕ ПЫТАЙСЯ УБЕЖАТЬ.",
+                "А-А-А-А!"
+            });
+
         _dialogue.name = "Bell Collector";
         _dialogue.sentences = _dialogues[_id];
         GetComponent<NPC>().dialogue = _dialogue;
@@ -74,12 +93,23 @@ public class BellCollector : MonoBehaviour
     {
         if (_playerInventory.Keys.ToList().Contains(name))
         {
-            _taskCompleted = _playerInventory[name] == _bellsAmount;
+            _taskCompleted = _playerInventory[name] >= _bellsAmount;
+
+            if (_taskGiven)
+            {
+                _playerTask.UpdateTask(
+                    $"Найти колокольчики: {_playerInventory[name]}/{_bellsAmount}"
+                );
+            }
         }
 
         switch (_taskCompleted)
         {
             case true:
+                _playerTask.SetTask(
+                    "Помощь Сборщику",
+                    "Вернуться к Сборщику"
+                );
                 _dialogue.sentences = _dialogues[IDEnoughBells];
                 break;
             case false when _taskGiven:
@@ -89,6 +119,12 @@ public class BellCollector : MonoBehaviour
         }
 
         if (!dialogueManager.isEnded) return;
+
+        if (_id == 4)
+        {
+            HUD.EnwhiteShadow();
+            player.Die();
+        }
 
         _taskGiven = true;
         dialogueManager.isEnded = false;
@@ -101,10 +137,14 @@ public class BellCollector : MonoBehaviour
                 var bell = Instantiate(bellPrefab);
 
                 var pos = GetRandomSpawnPointPosition();
-                Debug.Log($"spawned bell at pos {pos}");
 
                 bell.transform.position = pos;
             }
+
+            _playerTask.SetTask(
+                "Помощь Сборщику",
+                $"Найти колокольчики: 0/{_bellsAmount}"
+            );
 
             _bellsSpawned = true;
         }
@@ -120,6 +160,11 @@ public class BellCollector : MonoBehaviour
 
             _id++;
             _dialogue.sentences = _dialogues[_id];
+
+            _playerTask.SetTask(
+                "Где я?",
+                "Поговорить со Сборщиком"
+            );
         }
 
         GetComponent<NPC>().dialogue = _dialogue;
